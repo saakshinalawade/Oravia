@@ -1,20 +1,22 @@
-<img width="1599" height="714" alt="image" src="https://github.com/user-attachments/assets/f62f1c0f-28bd-45cc-a030-c6afd440c64d" /># 🎙️ Oravia – AI Voice Dubbing & Subtitle Generation System
+<img width="1599" height="714" alt="image" src="https://github.com/user-attachments/assets/f62f1c0f-28bd-45cc-a030-c6afd440c64d" /># 🎙️ Oravia – AI Multimedia Translation & Dubbing Platform
 
-Oravia is an AI-powered multimedia processing platform that helps users **transcribe audio/video**, **generate subtitles**, **translate spoken content**, and support **AI-based dubbing workflows** in multiple languages.
+Oravia is an AI-powered multimedia processing platform designed to simplify **speech, audio, video, and text transformation** using modern artificial intelligence tools.
 
-This project is designed to make multimedia content more **accessible**, **understandable**, and **multilingual** using modern AI, speech recognition, and language processing technologies.
+It provides a unified interface for **Text to Speech**, **Speech to Text**, **Video Dubbing**, **Audio Denoising**, and **Video/Text Summarization**, making content more **accessible**, **understandable**, and **multilingual**.
+
+
 
 ---
 
 ## ✨ Features
 
-- Converts **speech from audio/video into text** automatically.
-- Generates **subtitles/captions** for multimedia files.
-- Supports **translation** of subtitle/text output into multiple languages.
-- Enables **AI-based dubbing workflow** for multilingual media processing.
-- Provides a user-friendly interface for **uploading and processing files**.
-- Helps improve **content accessibility** and **language reach**.
-- Useful for **education, entertainment, and content creation** applications.
+- Converts **text into natural-sounding speech** using AI-based **Text to Speech (TTS)**.
+- Converts **spoken audio into written text** using **Speech to Text (STT)** technology.
+- Supports **Video Dubbing**, allowing translated and dubbed output generation.
+- Performs **Audio Denoising** to reduce unwanted background noise and improve clarity.
+- Provides **Video & Text Summarization** for extracting concise and meaningful content.
+- Offers a **modern, centralized interface** for handling multiple multimedia AI tasks.
+- Improves **accessibility**, **content understanding**, and **multilingual usability**.
 
 ---
 
