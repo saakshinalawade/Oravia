@@ -29,7 +29,7 @@ This project is designed to make multimedia content more **accessible**, **under
 ## 🤝 Collaborators
 
 - **Saakshi Nalawade**
-- **Shruti Patil**
+  
 
 ---
 
