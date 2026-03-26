@@ -1,4 +1,4 @@
-# 🎙️ Oravia – AI Voice Dubbing & Subtitle Generation System
+<img width="1599" height="714" alt="image" src="https://github.com/user-attachments/assets/f62f1c0f-28bd-45cc-a030-c6afd440c64d" /># 🎙️ Oravia – AI Voice Dubbing & Subtitle Generation System
 
 Oravia is an AI-powered multimedia processing platform that helps users **transcribe audio/video**, **generate subtitles**, **translate spoken content**, and support **AI-based dubbing workflows** in multiple languages.
 
@@ -90,7 +90,7 @@ Oravia/
 ---
 
 ## 📸 Output Preview
-![Uploading WhatsApp Image 2026-03-26 at 7.39.39 PM.jpeg…]()
+![WhatsApp Image 2026-03-26 at 7 39 39 PM (2)](https://github.com/user-attachments/assets/66bc9c00-8413-49ff-934e-c04fa17d1792)
 
 ![WhatsApp Image 2026-03-26 at 7 39 40 PM](https://github.com/user-attachments/assets/28fae9ad-48ee-4b5b-9588-83db974d30de)
 
