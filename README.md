@@ -1,4 +1,4 @@
-<img width="1599" height="714" alt="image" src="https://github.com/user-attachments/assets/f62f1c0f-28bd-45cc-a030-c6afd440c64d" /># 🎙️ Oravia – AI Multimedia Translation & Dubbing Platform
+# 🎙️ Oravia – AI Multimedia Translation & Dubbing Platform
 
 Oravia is an AI-powered multimedia processing platform designed to simplify **speech, audio, video, and text transformation** using modern artificial intelligence tools.
 
@@ -15,13 +15,6 @@ It provides a unified interface for **Text to Speech**, **Speech to Text**, **Vi
 - Provides **Video & Text Summarization** for extracting concise and meaningful content.
 - Offers a **modern, centralized interface** for handling multiple multimedia AI tasks.
 - Improves **accessibility**, **content understanding**, and **multilingual usability**.
-
----
-
-## 🤝 Collaborators
-
-- **Saakshi Nalawade**
-  
 
 ---
 
@@ -62,9 +55,11 @@ python app.py
 - **Artificial Intelligence / Machine Learning**
 - **Speech Recognition**
 - **Natural Language Processing (NLP)**
-- **Subtitle Processing**
-- **Translation Tools / APIs**
 - **Text-to-Speech (TTS)**
+- **Speech-to-Text (STT)**
+- **Audio Processing**
+- **Video Processing**
+- **Summarization Models**
 - **Streamlit / Flask** *(depending on implementation)*
 
 ---
@@ -85,46 +80,44 @@ Oravia/
 └── other project files
 ```
 
-> You can update this structure later if needed.
+> You can update this structure section later according to your actual folder structure.
 
 ---
 
 ## 📸 Output Preview
-![WhatsApp Image 2026-03-26 at 7 39 39 PM (2)](https://github.com/user-attachments/assets/66bc9c00-8413-49ff-934e-c04fa17d1792)
 
-![WhatsApp Image 2026-03-26 at 7 39 40 PM](https://github.com/user-attachments/assets/28fae9ad-48ee-4b5b-9588-83db974d30de)
+![WhatsApp Image 2026-03-26 at 7 39 39 PM (2)](https://github.com/user-attachments/assets/baf136b6-4842-4da8-aa89-fe992db5d70a)
 
-![WhatsApp Image 2026-03-26 at 7 39 39 PM (1)](https://github.com/user-attachments/assets/8fd90da7-2e25-4d4e-8bb8-4bb4b42dad71)
+![WhatsApp Image 2026-03-26 at 7 39 39 PM (1)](https://github.com/user-attachments/assets/fd2df329-93f5-4af3-9178-b3adb6516c59)
 
-
----
-
-## 🎯 Use Cases
-
-- **Subtitle generation for videos**
-- **Educational lecture translation**
-- **Multilingual dubbing support**
-- **Accessible content creation**
-- **Language learning applications**
+![WhatsApp Image 2026-03-26 at 7 39 40 PM](https://github.com/user-attachments/assets/392b9aa9-f7dc-4b88-bebc-02f650995d57)
 
 ---
 
-## 📌 Future Improvements
+## 🎯 Modules Included
 
-- Add support for **more regional and international languages**
-- Improve **voice dubbing quality and realism**
-- Add **real-time subtitle generation**
-- Enhance **user interface and experience**
-- Deploy the project for **public web access**
+### 🔊 Text to Speech
+Converts written text into clear and natural voice output.
+
+### 🎤 Speech to Text
+Transcribes spoken language into text format.
+
+### 🎬 Video Dubbing
+Supports AI-based dubbing and multilingual content transformation.
+
+### 🎧 Audio Denoising
+Removes or reduces background noise from audio files.
+
+### 📝 Video & Text Summarization
+Generates concise summaries from long text, video, or spoken content.
 
 ---
 
-## 👩‍💻 Authors
+## 👩‍💻 Author
 
 **Saakshi Nalawade**  
 Third Year Computer Engineering Student  
 Artificial Intelligence & Machine Learning Enthusiast  
-
 
 ---
 
@@ -136,4 +129,4 @@ This project is developed for **academic and educational purposes**.
 
 ## 🌟 Acknowledgment
 
-Special thanks to all the open-source libraries, AI tools, and technologies that helped make this project possible.
+Special thanks to all the open-source libraries, AI models, and multimedia processing technologies that helped make this project possible.
