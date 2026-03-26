@@ -4,8 +4,6 @@ Oravia is an AI-powered multimedia processing platform designed to simplify **sp
 
 It provides a unified interface for **Text to Speech**, **Speech to Text**, **Video Dubbing**, **Audio Denoising**, and **Video/Text Summarization**, making content more **accessible**, **understandable**, and **multilingual**.
 
-
-
 ---
 
 ## ✨ Features
