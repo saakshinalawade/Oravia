@@ -116,7 +116,7 @@ Generates concise summaries from long text, video, or spoken content.
 ## 👩‍💻 Author
 
 **Saakshi Nalawade**  
-Third Year Computer Engineering Student  
+Final Year Computer Engineering Student  
 Artificial Intelligence & Machine Learning Enthusiast  
 
 ---
