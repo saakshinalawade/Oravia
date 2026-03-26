@@ -91,13 +91,10 @@ Oravia/
 
 ## 📸 Output Preview
 
-Add screenshots from your video here.
-
-Example:
+![WhatsApp Image 2026-03-26 at 7 39 40 PM](https://github.com/user-attachments/assets/28fae9ad-48ee-4b5b-9588-83db974d30de)
 ![WhatsApp Image 2026-03-26 at 7 39 40 PM](https://github.com/user-attachments/assets/6914da82-6594-4137-81a5-f7d6b8d2c92d)
+![WhatsApp Image 2026-03-26 at 7 39 39 PM (1)](https://github.com/user-attachments/assets/8fd90da7-2e25-4d4e-8bb8-4bb4b42dad71)
 
-
-> If you don’t have screenshots yet, you can temporarily remove this section or keep it for later.
 
 ---
 
