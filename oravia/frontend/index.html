@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>DubAI - Professional AI Audio Video Dubbing Platform</title>
+    <meta name="description" content="Transform your content with AI-powered dubbing, text-to-speech, speech-to-text, and noise removal. Create multilingual content with studio-quality audio.">
+    <meta name="keywords" content="AI dubbing, text to speech, speech to text, audio processing, video dubbing, multilingual content, AI audio, voice generation">
+    <meta name="author" content="DubAI">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DubAI - Professional AI Audio Video Dubbing Platform">
+    <meta property="og:description" content="Transform your content with AI-powered dubbing, text-to-speech, speech-to-text, and noise removal.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="DubAI - Professional AI Audio Video Dubbing Platform">
+    <meta property="twitter:description" content="Transform your content with AI-powered dubbing, text-to-speech, speech-to-text, and noise removal.">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#3B82F6">
+    
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Initial CSS for loading state -->
+    <style>
+      /* Critical CSS for initial loading */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background: #0f172a;
+        color: #ffffff;
+        overflow-x: hidden;
+        min-height: 100vh;
+      }
+      
+      #root {
+        min-height: 100vh;
+      }
+      
+      /* Loading animation */
+      .app-loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #0f172a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      
+      .loading-spinner {
+        width: 60px;
+        height: 60px;
+        border: 3px solid rgba(59, 130, 246, 0.3);
+        border-top: 3px solid #3b82f6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      
+      .loading-text {
+        font-size: 16px;
+        color: #94a3b8;
+        font-weight: 500;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Gradient orbs for background */
+      .gradient-orb {
+        position: fixed;
+        border-radius: 50%;
+        filter: blur(60px);
+        opacity: 0.3;
+        z-index: -1;
+      }
+      
+      .orb-1 {
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+        top: -200px;
+        left: -200px;
+      }
+      
+      .orb-2 {
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, #8b5cf6 0%, transparent 70%);
+        bottom: -150px;
+        right: -150px;
+      }
+      
+      /* Hide loading when app is ready */
+      .app-loaded .app-loading {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+      }
+      
+      /* Error state */
+      .error-state {
+        text-align: center;
+        color: #ef4444;
+      }
+      
+      .error-icon {
+        font-size: 48px;
+        margin-bottom: 16px;
+      }
+      
+      .retry-button {
+        background: #3b82f6;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all 0.3s ease;
+      }
+      
+      .retry-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+      }
+      
+      /* Reduced motion for accessibility */
+      @media (prefers-reduced-motion: reduce) {
+        .loading-spinner {
+          animation-duration: 2s;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="app-loading">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Loading DubAI...</div>
+    </div>
+    
+    <!-- Main App Container -->
+    <div id="root"></div>
+    
+    <!-- App Initialization Script -->
+    <script>
+      // Remove loading screen when app is ready
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.body.classList.add('app-loaded');
+          setTimeout(function() {
+            const loadingElement = document.querySelector('.app-loading');
+            if (loadingElement) {
+              loadingElement.remove();
+            }
+          }, 500);
+        }, 1000);
+      });
+      
+      // Error handling for failed loads
+      window.addEventListener('error', function(e) {
+        console.error('Application loading error:', e.error);
+        const loadingElement = document.querySelector('.app-loading');
+        if (loadingElement) {
+          loadingElement.innerHTML = [
+            '<div class="error-state">',
+            '  <div class="error-icon">⚠️</div>',
+            '  <h2 style="margin-bottom: 8px;">Failed to Load</h2>',
+            '  <p style="margin-bottom: 16px; opacity: 0.8;">Please check your connection and try again.</p>',
+            '  <button class="retry-button" onclick="window.location.reload()">Retry</button>',
+            '</div>'
+          ].join('');
+        }
+      });
+      
+      // Theme detection
+      (function() {
+        const savedTheme = localStorage.getItem('dubai-theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+        
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.classList.toggle('dark', theme === 'dark');
+        
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+          if (!localStorage.getItem('dubai-theme')) {
+            const newTheme = e.matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            document.documentElement.classList.toggle('dark', newTheme === 'dark');
+          }
+        });
+      })();
+    </script>
+    
+    <!-- Main App Script -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
