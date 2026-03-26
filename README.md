@@ -6,14 +6,6 @@ This project is designed to make multimedia content more **accessible**, **under
 
 ---
 
-## 🎥 Demo Video
-
-[▶️ Click here to watch the Oravia demo](PASTE-YOUR-VIDEO-LINK-HERE)
-
-> Replace `PASTE-YOUR-VIDEO-LINK-HERE` with your Google Drive / YouTube / GitHub video link.
-
----
-
 ## ✨ Features
 
 - Converts **speech from audio/video into text** automatically.
@@ -102,18 +94,8 @@ Oravia/
 Add screenshots from your video here.
 
 Example:
+![WhatsApp Image 2026-03-26 at 7 39 40 PM](https://github.com/user-attachments/assets/6914da82-6594-4137-81a5-f7d6b8d2c92d)
 
-```md
-![Home Page](images/home.png)
-![Upload Interface](images/upload.png)
-![Final Output](images/output.png)
-```
-
-After adding screenshots, it will look like this:
-
-![Home Page](images/home.png)
-![Upload Interface](images/upload.png)
-![Final Output](images/output.png)
 
 > If you don’t have screenshots yet, you can temporarily remove this section or keep it for later.
 
@@ -145,7 +127,6 @@ After adding screenshots, it will look like this:
 Third Year Computer Engineering Student  
 Artificial Intelligence & Machine Learning Enthusiast  
 
-**Shruti Patil**
 
 ---
 
